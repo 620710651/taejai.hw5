@@ -5,6 +5,7 @@ class Project {
   final int duration; // ระยะเวลาโครงการ
   final int receiveAmount; // จำนวนเงินที่ได้รับบริจาคมาแล้ว
   final int donateCount; // จำนวนครั้งที่บริจาคเข้ามา
+  final String imageUrl; // URL ของภาพ cover
 
   Project({
     required this.title,
@@ -13,5 +14,6 @@ class Project {
     required this.duration,
     required this.receiveAmount,
     required this.donateCount,
+    required this.imageUrl,
   });
 }
